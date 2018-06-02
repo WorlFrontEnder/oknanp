@@ -1,0 +1,20 @@
+.menu-service{
+	float: left;
+	margin: 0 0 0 80px;
+}
+.menu-service__title{
+	color: $color4;
+	@include font(bold, 16px, 'Source Sans Pro');
+	text-transform: uppercase;
+}
+.menu-service__content{
+  margin-top: 10px;
+}
+.menu-service__li{
+  display: block;
+  padding-bottom: 5px;
+}
+.menu-service__href{
+  color: $color3;
+  @include font(600, 16px, 'Source Sans Pro');
+}

@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;}
+
+html, body{
+ height: 100%;
+ background-color: $white;
+ @include font(normal, 16px, 'Source Sans Pro');
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  }
+img{
+  outline: none;
+  max-width: 100%;
+  border:none;
+ }
+ul{
+  list-style: none;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

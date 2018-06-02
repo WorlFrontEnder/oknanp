@@ -1,0 +1,31 @@
+.carousel{
+	max-width: 1200px !important;
+	margin: 100px auto 0;
+
+	img{
+	  width: auto !important;	
+	}
+	.owl-nav{
+		position: absolute;
+		top: 70px;
+    width: 104%;
+    left: -36px;
+
+		.owl-prev{
+			background: url(../images/csssprite.png) no-repeat 0px -210px !important;
+      display: block !important;
+      width: 10px;
+      height: 23px;
+      float: left;
+		}
+
+		.owl-next{
+			background: url(../images/csssprite.png) no-repeat -28px -210px !important;
+      display: block !important;
+      width: 10px;
+      height: 23px;
+      float: right;
+		}
+	}
+
+}

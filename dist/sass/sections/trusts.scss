@@ -1,0 +1,110 @@
+.trusts{
+	background: url(../images/bg2.png) no-repeat bottom center;
+  padding-bottom: 120px;
+  background-size: 70%;
+}
+
+.trusts__in{
+  max-width: 1175px;
+	margin: 120px auto 0;
+}
+
+.trusts__title{
+	text-align: center;
+	color: $color4;
+	@include font(normal, 48px, 'Source Sans Pro');
+}
+
+.trusts__description{
+ text-align: center;
+ color: $color5;
+ @include font(300, 20px, 'Source Sans Pro');
+ padding-top: 20px;
+}
+
+.trusts-content{
+  margin-top: 120px;
+
+  li{
+   background-color: $white;
+   width: 370px;
+   height: 400px;
+   box-shadow: 0 0 10px #d8d8d8;
+   @include borderRadius(5px);
+   display: inline-block;
+   vertical-align: top;
+   margin: 0 30px 0 0;
+  }
+  li:last-child{
+  	margin: 0;
+  }
+}
+
+.trusts-content__quality,
+.trusts-content__qualification,
+.trusts-content__individual{
+ 
+ &:before{
+ 	content: "";
+  display: block;
+  margin: 60px auto 50px;
+  width: 55px;
+  height: 58px;
+  background: url(../images/csssprite.png) no-repeat 0px -250px;
+ }
+}
+.trusts-content__title,
+.trusts-content__individual-title{
+	text-align: center;
+	@include font(normal, 24px, 'Source Sans Pro');
+	padding-bottom: 40px;
+}
+.trusts-content__text,
+.trusts-content__individual-text{
+	text-align: center;
+	@include font(300, 16px, 'Source Sans Pro');
+	color: $color5;
+}
+.trusts-content__href,
+.trusts-content__individual-href{
+	margin: 27px auto 0;
+	@include borderRadius(30px);
+	border:1px solid $color;
+	width: 150px;
+	height: 37px;
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+	text-transform: uppercase;
+	color: $color3;
+} 
+
+.trusts-content__qualification{
+ &:before{
+  background: url(../images/csssprite.png) no-repeat 0px -325px;
+ }
+}
+
+.trusts-content__individual{
+  background: #246cad;
+  background: -moz-linear-gradient(top, #246cad 0%, #01c4c7 100%);
+  background: -webkit-linear-gradient(top, #246cad 0%,#01c4c7 100%);
+  background: linear-gradient(to bottom, #246cad 0%,#01c4c7 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#246cad', endColorstr='#01c4c7',GradientType=0 );
+
+ &:before{
+  background: url(../images/csssprite.png) no-repeat 0px -402px;
+ }
+}
+
+.trusts-content__individual-title,
+.trusts-content__individual-text{
+ color: $white;
+}
+
+.trusts-content__individual-href{
+	border:1px solid #5cd2d9;
+	background: #5cd1d9;
+	color: $white;
+	box-shadow:  inset 0px 0px 20px rgba(0,0,0, 0.2);
+}

@@ -1,0 +1,20 @@
+.menu-balkon{
+	float: left;
+	margin-top: -65px;
+}
+.menu-balkon__title{
+	color: $color4;
+	@include font(bold, 16px, 'Source Sans Pro');
+	text-transform: uppercase;
+}
+.menu-balkon__content{
+  margin-top: 10px;
+}
+.menu-balkon__li{
+  display: block;
+  padding-bottom: 5px;
+}
+.menu-balkon__href{
+  color: $color3;
+  @include font(600, 16px, 'Source Sans Pro');
+}

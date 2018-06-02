@@ -1,0 +1,21 @@
+- var delta = ["О нас", "Вакансии", "Новости", "Контакты"];
+- var urlHref = {hrefAbout: "google.com", hrefVacance: "google.com2", hrefNews: "google.com3", hrefContacts: "google.com4"};
+
+
+
+ul.top-menu
+ li.top-menu__li
+  a(href=""+urlHref.hrefAbout)
+    span(class="top-menu__text")= delta[0]
+
+ li.top-menu__li
+  a(href=""+urlHref.hrefVacance)
+    span(class="top-menu__text")= delta[1]
+
+ li.top-menu__li
+  a(href=""+urlHref.hrefNews)
+    span(class="top-menu__text")= delta[2]
+
+ li.top-menu__li
+  a(href=""+urlHref.hrefContacts)
+    span(class="top-menu__text")= delta[3]

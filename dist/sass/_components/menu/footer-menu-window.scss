@@ -1,0 +1,19 @@
+.menu-window{
+	float: left;
+}
+.menu-window__title{
+	color: $color4;
+	@include font(bold, 16px, 'Source Sans Pro');
+	text-transform: uppercase;
+}
+.menu-window__content{
+  margin-top: 10px;
+}
+.menu-window__li{
+  display: block;
+  padding-bottom: 5px;
+}
+.menu-window__href{
+  color: $color3;
+  @include font(600, 16px, 'Source Sans Pro');
+}

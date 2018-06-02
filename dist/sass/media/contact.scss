@@ -1,0 +1,52 @@
+@media (max-width:1200px){
+ .contact__in{
+   max-width: 1000px;
+  }
+  .contact__content li{
+   margin: 0 90px 0 0;
+  }
+}
+
+
+
+@media (max-width:1030px){
+ .contact__in{
+   max-width: 800px;
+
+   li{
+    margin:0 26px 0 0;
+   }
+ }
+}
+
+
+
+@media (max-width:840px){
+.contact__in{
+  max-width: 400px;
+
+  li{
+   width: 50%;
+   margin: 0;
+  }
+ }
+}
+
+
+
+@media (max-width:450px){
+ .contact{
+    background-size: cover;
+  }
+  .contact__in{
+    max-width: 300px;
+
+   li{
+    width: 100%;
+    margin: 0;
+    }
+   }
+   .contact__title{
+    font-size: 30px;
+  }
+}

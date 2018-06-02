@@ -1,0 +1,156 @@
+@media (max-width:1200px){
+ .header__top{
+  padding: 0 20px;
+ }
+ body,
+ html{
+  min-width: 320px;
+ }
+}
+
+@media (max-width:1080px){
+  .header__working-time{
+   max-width: 670px;
+  }
+  .header__top{
+   padding-bottom: 20px;
+  }
+  .header__working-phone{
+   padding: 0 0 0 33px;
+  }
+  .top-menu{
+   margin: 2px 12px 0 0;
+  }
+  .drop-menu__href{
+    padding: 32px 7px 38px;
+  }
+  .header-middle__in{
+    max-width: 800px;
+    width: 100%;
+  }
+  .drop-menu{
+    width: 620px;
+  }
+  .drop-menu__li{
+    margin:0 30px 0 0;
+  }
+  .header__description{
+    padding:40px 10px;
+  }
+}
+
+
+@media (max-width:810px){
+  .header-middle__in{
+    max-width: 500px;
+  }
+  .header-middle__logo{
+    float: none;
+    width: 180px;
+    margin: 0 auto;
+  }
+  .drop-menu{
+    float: none;
+    margin: 0 auto;
+  }
+  .header-middle{
+    overflow: hidden;
+    height: auto;
+  }
+  .drop-menu__li{
+    margin: 0 10px 0 0;
+  }
+}
+
+@media (max-width:735px){
+ .header__working-time{
+    max-width: 500px;
+   }
+   .header-bottom{
+     max-width: 500px;
+     margin: 80px auto 0;
+   }
+   .header__title{
+     font-size: 50px;
+   }
+   .header__description{
+     padding: 30px 10px;
+     font-size: 20px;
+   }
+   .header__popup{
+    float: none;
+    margin: 13px auto 40px;
+   }
+  .header__popup2{
+    float: none;
+    margin: 0 auto 40px;
+  }
+   .header__top{
+    padding-bottom: 45px;
+   }
+   .header__working-data{
+    float: none;
+    margin: 0 auto 6px;
+    width: 260px;
+    display: block;
+   }
+   .header__working-phone{
+    margin: 0 0 0 90px;
+   }
+   .top-menu{
+    float: none;
+    margin: 31px auto;
+    overflow: hidden;
+    width: 300px;
+    li {
+     margin: 0 30px 0 0;
+    }
+   }
+  }
+
+  @media (max-width:530px){
+    .header-middle__in{
+      max-width: 300px;
+    }
+    .drop-menu{
+      width: 300px;
+    }
+    .drop-menu__li{
+     float: none;
+     margin: 0;
+    }
+    .drop-menu__href{
+      padding: 25px 7px;
+    }
+  }
+
+  @media (max-width:490px){
+    .header__working-time{
+       max-width: 300px;
+      }
+      .header__top{
+       padding-bottom: 45px;
+      }
+      .header__working-data{
+       float: none;
+       margin: 0 auto 6px;
+       width: 260px;
+       display: block;
+      }
+      .header__working-phone{
+       margin: 0;
+       padding: 0 0 0 20px;
+      }
+      .top-menu{
+       float: none;
+       margin: 31px auto;
+       overflow: hidden;
+       width: 300px;
+       li {
+        margin: 0 30px 0 0;
+       }
+      }
+      .header__title{
+        font-size: 35px;
+      }
+     }
